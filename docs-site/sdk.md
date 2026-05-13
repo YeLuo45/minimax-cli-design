@@ -25,7 +25,7 @@ interface MiniMaxSDKOptions {
 }
 ```
 
-### ModelPartial<T>
+### ModelPartial&lt;T&gt;
 
 ```typescript
 type ModelPartial<T> = 'model' extends keyof T
